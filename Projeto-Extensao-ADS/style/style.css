@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Courier+Prime&family=Darker+Grotesque&family=Inter:wght@300;400&family=Kanit:wght@300&family=Montserrat:wght@500&family=Poppins:wght@100;300;500&family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #0f0f10;
+}
+
+.evento {
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.evento-2 {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.nome-evento {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.convite-evento {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 120px;
+}
+
+.texto-convite {
+  text-align: center;
+  padding-bottom: 40px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card-1 {
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(#333, #333);
+  transition: all .5s;
+}
+
+.card-1 .img-card-1 {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-image: url('../imagens/fundoPreto.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: all .5s;
+  z-index: 2;
+  position: relative;
+  opacity: .8;
+}
+
+.card-1 .img-card-1 span {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  transition: all .5s;
+}
+
+.card-1:hover .img-card-1 {
+  opacity: 1;
+  width: 430px;
+}
+
+.card-1:hover .img-card-1 span {
+  font-size: 28px;
+}
+
+.card-1 .content-1 {
+  padding: 0px 20px;
+  height: 0;
+  opacity: 0;
+  transition: all .5s;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translateY(30px);
+}
+
+.card-1:hover .content-1 {
+  height: 420px;
+  padding: 20px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-1 .content p {
+  margin: 0;
+}
+
+.card-1 .content-1 .title-1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-1 .content-1 .desc-1 {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 100;
+  opacity: .8;
+  margin-top: 8px;
+}
+
+.card-1 .arrow-1 {
+  padding: 15px;
+  transform: rotate(-180deg);
+  transition: all .5s;
+}
+
+.card-1:hover .arrow-1 {
+  transform: rotate(0);
+}
+
+.card-1 .arrow-1 span {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+/*CARD 2*/
+
+.card-2 {
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(#333, #333);
+  transition: all .5s;
+}
+
+.card-2 .img-card-2 {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-image: url('../imagens/log-com-texto.jpeg');
+  background-size: cover;
+  background-position: center;
+  transition: all .5s;
+  z-index: 2;
+  position: relative;
+  opacity: .8;
+}
+
+.card-2 .img-card-2 span {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  transition: all .5s;
+}
+
+.card-2:hover .img-card-2 {
+  opacity: 1;
+  width: 430px;
+}
+
+.card-2:hover .img-card-2 span {
+  font-size: 28px;
+}
+
+.card-2 .content-2 {
+  padding: 0px 20px;
+  height: 0;
+  opacity: 0;
+  transition: all .5s;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translateY(30px);
+}
+
+.card-2:hover .content-2 {
+  height: 610px;
+  padding: 20px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-2 .content p {
+  margin: 0;
+}
+
+.card-2 .content-2 .title-2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-2 .content-2 .desc-2 {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 100;
+  opacity: .8;
+  margin-top: 8px;
+}
+
+.card-2 .arrow-2 {
+  padding: 15px;
+  transform: rotate(-180deg);
+  transition: all .5s;
+}
+
+.card-2:hover .arrow-2 {
+  transform: rotate(0);
+}
+
+.card-2 .arrow-2 span {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+/*CARD 3*/
+
+.card-3 {
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(#333, #333);
+  transition: all .5s;
+}
+
+.card-3 .img-card-3 {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-image: url('../imagens/fundoPreto.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: all .5s;
+  z-index: 2;
+  position: relative;
+  opacity: .8;
+}
+
+.card-3 .img-card-3 span {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  transition: all .5s;
+}
+
+.card-3:hover .img-card-3 {
+  opacity: 1;
+  width: 430px;
+}
+
+.card-3:hover .img-card-3 span {
+  font-size: 28px;
+}
+
+.card-3 .content-3 {
+  padding: 0px 20px;
+  height: 0;
+  opacity: 0;
+  transition: all .5s;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform: translateY(30px);
+}
+
+.card-3:hover .content-3 {
+  height: 600px;
+  padding: 20px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-3 .content p {
+  margin: 0;
+}
+
+.card-3 .content-3 .title-3 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-3 .content-3 .desc-3 {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 100;
+  opacity: .8;
+  margin-top: 8px;
+}
+
+.card-3 .arrow-3 {
+  padding: 15px;
+  transform: rotate(-180deg);
+  transition: all .5s;
+}
+
+.card-3:hover .arrow-3 {
+  transform: rotate(0);
+}
+
+.card-3 .arrow-3 span {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.img-card-1 {
+  width: 250px;
+  height: auto;
+  display: flex;
+  border-radius: 12%;
+  margin-top: 10px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.img-card-2 {
+  width: 250px;
+  height: auto;
+  display: flex;
+  border-radius: 12%;
+  margin-top: 10px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.img-card-3 {
+  width: 250px;
+  height: auto;
+  display: flex;
+  border-radius: 12%;
+  margin-top: 10px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
+}
+
+/*mobile*/
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+
+  .evento {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .evento-2 {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nome-evento {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .convite-evento {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+
+  .texto-convite {
+    padding-bottom: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .img-card-1 {
+    width: 250px;
+    height: auto;
+    display: flex;
+    border-radius: 12%;
+    margin-top: 10px;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+
+  .img-card-2 {
+    width: 250px;
+    height: auto;
+    display: flex;
+    border-radius: 12%;
+    margin-top: 10px;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+
+  .img-card-3 {
+    width: 250px;
+    height: auto;
+    display: flex;
+    border-radius: 12%;
+    margin-top: 10px;
+    margin-right: 24px;
+    margin-left: 24px;
+  }
+
+  .cards {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+  }
+
+}

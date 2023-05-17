@@ -1,0 +1,65 @@
+/*FOOTER*/
+.paragrafo-footer{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .linha{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-nome-grupo{
+    padding-top: 150px ;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nome-grupo{
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+  }
+  
+  .data{
+    font-size: 15px;
+    font-weight: 300;
+    color: #FFFFFF;
+  }
+  
+  .img-linha{
+    width: 100%;
+    height: 1px;
+    font-weight: 300;
+    color: #FFFFFF;
+  }
+  
+  footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+
+/*mobile*/
+@media only screen and (max-width: 500px) and (min-width: 300px){
+    .linha{
+    padding-top: 2px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+  }
+    
+  
+}
